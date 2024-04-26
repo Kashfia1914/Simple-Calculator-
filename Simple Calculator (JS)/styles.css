@@ -1,0 +1,75 @@
+h1 {
+    margin: 0;
+    padding: 100px;
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 32px;
+}
+body{
+    margin: 0;
+    display: flex;
+    background-image: url("coffee.jpg");
+    background-color: #eeb8dd;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#calculator{
+    font-family: "Arial, sans-serif", fantasy ;
+    background-color: hsl(316, 29%, 63%);
+    background-image: url("calc.jpg");
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(317, 19%, 79%);
+    color: white;
+
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    border: 2px solid #7c045f;
+    background-color: hsl(319, 61%, 83%);
+    color: white;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(320, 20%, 60%);
+    border-radius: 5px;
+}
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(317, 50%, 46%);
+}
+.operator-btn:hover{
+    background-color: hsla(205, 100%, 70%, 0.98);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 80%);
+}
